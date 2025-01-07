@@ -1,0 +1,12 @@
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\bin\Debug\net9.0\CoffeeShopPosBusinessLogic.deps.json
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\bin\Debug\net9.0\CoffeeShopPosBusinessLogic.dll
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\bin\Debug\net9.0\CoffeeShopPosBusinessLogic.pdb
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.AssemblyInfo.cs
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.sourcelink.json
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.dll
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\refint\CoffeeShopPosBusinessLogic.dll
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\CoffeeShopPosBusinessLogic.pdb
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosBusinessLogic\obj\Debug\net9.0\ref\CoffeeShopPosBusinessLogic.dll

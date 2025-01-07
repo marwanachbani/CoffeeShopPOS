@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopPosUi", "CoffeeShopPosUi\CoffeeShopPosUi.csproj", "{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopPosBusinessLogic", "CoffeeShopPosBusinessLogic\CoffeeShopPosBusinessLogic.csproj", "{8D0597EF-719F-4B98-8FB9-267FF846489E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Data.SqLite", "CoffeeShop.Data.SqLite\CoffeeShop.Data.SqLite.csproj", "{B9F8F18D-AF31-4945-A575-DB48A2281C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlite.Infrastructure.Test", "..\..\test\Sqlite.Infrastructure.Test\Sqlite.Infrastructure.Test.csproj", "{3A605CED-DF26-4835-BCC1-6B5340F499B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.test", "..\..\test\App.test\App.test.csproj", "{A3027DF7-C317-4999-AA47-2754A12C9B22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,21 @@ Global
 		{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0597EF-719F-4B98-8FB9-267FF846489E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0597EF-719F-4B98-8FB9-267FF846489E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0597EF-719F-4B98-8FB9-267FF846489E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0597EF-719F-4B98-8FB9-267FF846489E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F8F18D-AF31-4945-A575-DB48A2281C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F8F18D-AF31-4945-A575-DB48A2281C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F8F18D-AF31-4945-A575-DB48A2281C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F8F18D-AF31-4945-A575-DB48A2281C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A605CED-DF26-4835-BCC1-6B5340F499B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A605CED-DF26-4835-BCC1-6B5340F499B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A605CED-DF26-4835-BCC1-6B5340F499B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A605CED-DF26-4835-BCC1-6B5340F499B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3027DF7-C317-4999-AA47-2754A12C9B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3027DF7-C317-4999-AA47-2754A12C9B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3027DF7-C317-4999-AA47-2754A12C9B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3027DF7-C317-4999-AA47-2754A12C9B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
