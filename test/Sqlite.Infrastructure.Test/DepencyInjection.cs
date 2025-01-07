@@ -27,6 +27,13 @@ namespace Sqlite.Infrastructure.Test
             Assert.NotNull(genericRepository);
             Assert.IsType<GenericRepository<object>>(genericRepository);
         }
-        [Fact] public void DbContext_Should_Resolve_Correctly() { var serviceCollection = new ServiceCollection(); serviceCollection.AddInfrastructure(); var serviceProvider = serviceCollection.BuildServiceProvider(); var dbContext = serviceProvider.GetService<AppDbContext>(); Assert.NotNull(dbContext); }
+        [Fact] public void DbContext_Should_Resolve_Correctly() 
+        { 
+            var serviceCollection = new ServiceCollection(); 
+            serviceCollection.AddInfrastructure(); 
+            var serviceProvider = serviceCollection.BuildServiceProvider(); 
+            var dbContext = serviceProvider.GetService<AppDbContext>(); 
+            Assert.NotNull(dbContext);
+        }
     }
 }

@@ -97,3 +97,5 @@ C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\obj\Debug\net9.0\refint\App.te
 C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\obj\Debug\net9.0\App.test.pdb
 C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\obj\Debug\net9.0\App.test.genruntimeconfig.cache
 C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\obj\Debug\net9.0\ref\App.test.dll
+C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\bin\Debug\net9.0\.msCoverageSourceRootsMapping_App.test
+C:\Users\hp\Documents\CoffeeShopPOS\test\App.test\bin\Debug\net9.0\CoverletSourceRootsMapping_App.test

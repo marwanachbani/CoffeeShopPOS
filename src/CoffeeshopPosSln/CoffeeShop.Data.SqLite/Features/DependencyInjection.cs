@@ -15,7 +15,13 @@ namespace CoffeeShop.Data.SqLite.Features
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             // Register GenericRepository as the default implementation of IRepository
-            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));            services.AddDbContext<AppDbContext>(options =>
+            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));      
+             services.AddScoped<IUserRepository, UserRepository>();
+
+
+
+
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlite("Data Source=CoffeeShopPOS.db"));
             return services;
               
