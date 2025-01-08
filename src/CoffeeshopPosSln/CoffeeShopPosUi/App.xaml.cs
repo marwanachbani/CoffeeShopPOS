@@ -35,6 +35,11 @@ public partial class App : Application
                 DataContext = ServiceProvider.GetRequiredService<LoginViewModel>()
             };
             loginView.Show();
+            var menuView = new MenuView
+            {
+                DataContext = ServiceProvider.GetRequiredService<MenuViewModel>()
+            };
+            menuView.Show();
             var registerView = new RegisterView
             {
                 DataContext = ServiceProvider.GetRequiredService<RegisterViewModel>()
@@ -57,6 +62,7 @@ public partial class App : Application
             // Register ViewModels
             services.AddScoped<LoginViewModel>();
             services.AddScoped<OrderViewModel>();
+            services.AddScoped<MenuViewModel>();
             services.AddScoped<RegisterViewModel>();
             services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();

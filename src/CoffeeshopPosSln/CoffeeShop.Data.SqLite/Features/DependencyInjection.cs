@@ -16,8 +16,8 @@ namespace CoffeeShop.Data.SqLite.Features
         {
             // Register GenericRepository as the default implementation of IRepository
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));      
-             services.AddScoped<IUserRepository, UserRepository>();
-
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IMenuRepository, MenuRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
 
 

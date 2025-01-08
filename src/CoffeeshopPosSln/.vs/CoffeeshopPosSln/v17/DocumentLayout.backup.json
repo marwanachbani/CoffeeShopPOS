@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}|CoffeeShopPosUi\\CoffeeShopPosUi.csproj|c:\\users\\hp\\documents\\coffeeshoppos\\src\\coffeeshoppossln\\coffeeshopposui\\views\\orderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D574BD1-2B97-4B1D-86F7-982A8A318AE6}|CoffeeShopPosUi\\CoffeeShopPosUi.csproj|solutionrelative:coffeeshopposui\\views\\orderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3027DF7-C317-4999-AA47-2754A12C9B22}|..\\..\\test\\App.test\\App.test.csproj|c:\\users\\hp\\documents\\coffeeshoppos\\test\\app.test\\messengertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -81,24 +85,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterViewModelTests.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\Users\\RegisterViewModelTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\test\\App.test\\Users\\RegisterViewModelTests.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\Users\\RegisterViewModelTests.cs",
-              "RelativeToolTip": "..\\..\\test\\App.test\\Users\\RegisterViewModelTests.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwDwAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:13:40.466Z",
+              "DocumentIndex": 0,
+              "Title": "OrderView.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\OrderView.xaml",
+              "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\OrderView.xaml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\OrderView.xaml",
+              "RelativeToolTip": "CoffeeShopPosUi\\Views\\OrderView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T12:09:47.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegisterView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\RegisterView.xaml.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\RegisterView.xaml.cs",
@@ -106,24 +109,47 @@
               "RelativeToolTip": "CoffeeShopPosUi\\Views\\RegisterView.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:09:47.065Z",
+              "WhenOpened": "2025-01-08T10:09:47.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessengerTests.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\MessengerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\test\\App.test\\MessengerTests.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\MessengerTests.cs",
+              "RelativeToolTip": "..\\..\\test\\App.test\\MessengerTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:58:19.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "RegisterViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\Users\\RegisterViewModelTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\test\\App.test\\Users\\RegisterViewModelTests.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\Users\\RegisterViewModelTests.cs",
+              "RelativeToolTip": "..\\..\\test\\App.test\\Users\\RegisterViewModelTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:13:40.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegisterView.xaml",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\RegisterView.xaml",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\RegisterView.xaml",
               "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\RegisterView.xaml",
               "RelativeToolTip": "CoffeeShopPosUi\\Views\\RegisterView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-08T10:08:45.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T10:08:45.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\ViewModels\\RegisterViewModel.cs",
@@ -131,25 +157,11 @@
               "RelativeToolTip": "CoffeeShopPosUi\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:06:04.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T10:06:04.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessengerTests.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\MessengerTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\test\\App.test\\MessengerTests.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\MessengerTests.cs",
-              "RelativeToolTip": "..\\..\\test\\App.test\\MessengerTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:58:19.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "CoffeeShop.Data.SqLite\\Repositories\\UserRepository.cs",
@@ -157,12 +169,11 @@
               "RelativeToolTip": "CoffeeShop.Data.SqLite\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wBUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:04:51.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T10:04:51.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosBusinessLogic\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosBusinessLogic\\Interfaces\\IUserRepository.cs",
@@ -170,12 +181,11 @@
               "RelativeToolTip": "CoffeeShopPosBusinessLogic\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:04:26.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T10:04:26.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\App.xaml.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\App.xaml.cs",
@@ -183,12 +193,11 @@
               "RelativeToolTip": "CoffeeShopPosUi\\App.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:30:13.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:30:13.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BaseViewModel .cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Core\\BaseViewModel .cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Core\\BaseViewModel .cs",
@@ -200,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginViewModel .cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\ViewModels\\LoginViewModel .cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\ViewModels\\LoginViewModel .cs",
@@ -208,12 +217,11 @@
               "RelativeToolTip": "CoffeeShopPosUi\\ViewModels\\LoginViewModel .cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAqwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:45:50.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T20:45:50.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Messenger.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Core\\Messenger.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Core\\Messenger.cs",
@@ -225,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginViewModelTests.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\Users\\LoginViewModelTests.cs",
               "RelativeDocumentMoniker": "..\\..\\test\\App.test\\Users\\LoginViewModelTests.cs",
@@ -237,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IMessenger.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Core\\IMessenger.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Core\\IMessenger.cs",
@@ -249,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserRepositoryTests.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\Sqlite.Infrastructure.Test\\Users\\UserRepositoryTests.cs",
               "RelativeDocumentMoniker": "..\\..\\test\\Sqlite.Infrastructure.Test\\Users\\UserRepositoryTests.cs",
@@ -261,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "App.test.csproj.Backup.tmp",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "..\\..\\test\\App.test\\App.test.csproj.Backup.tmp",
@@ -273,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\Data\\DataSeeder.cs",
               "RelativeDocumentMoniker": "CoffeeShop.Data.SqLite\\Data\\DataSeeder.cs",
@@ -285,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\ViewModels\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\ViewModels\\DashboardViewModel.cs",
@@ -297,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LoginView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\LoginView.xaml.cs",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\LoginView.xaml.cs",
@@ -309,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\LoginView.xaml",
