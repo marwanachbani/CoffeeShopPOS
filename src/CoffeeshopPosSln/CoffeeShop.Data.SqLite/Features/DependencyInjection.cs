@@ -18,7 +18,7 @@ namespace CoffeeShop.Data.SqLite.Features
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));      
              services.AddScoped<IUserRepository, UserRepository>();
 
-
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
 
             services.AddDbContext<AppDbContext>(options =>

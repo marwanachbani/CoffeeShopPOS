@@ -39,8 +39,13 @@ public partial class App : Application
             {
                 DataContext = ServiceProvider.GetRequiredService<RegisterViewModel>()
             };
-        registerView.Show();
-        base.OnStartup(e);
+            var orderView = new OrderView
+            {
+                DataContext = ServiceProvider.GetRequiredService<OrderViewModel>()
+            };
+            orderView.Show();
+            registerView.Show();
+            base.OnStartup(e);
         }
 
         private void ConfigureServices(IServiceCollection services)
@@ -51,6 +56,7 @@ public partial class App : Application
 
             // Register ViewModels
             services.AddScoped<LoginViewModel>();
+            services.AddScoped<OrderViewModel>();
             services.AddScoped<RegisterViewModel>();
             services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();

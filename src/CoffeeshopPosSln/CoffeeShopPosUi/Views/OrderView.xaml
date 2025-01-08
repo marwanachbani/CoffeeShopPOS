@@ -1,0 +1,38 @@
+﻿<Window x:Class="CoffeeShopPosUi.Views.OrderView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShopPosUi.Views"
+        mc:Ignorable="d"
+        Title="OrderView" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <!-- Current Order -->
+            <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                <TextBlock Text="Current Order" FontWeight="Bold" FontSize="16" />
+                <DataGrid ItemsSource="{Binding CurrentOrder.OrderDetails}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Item Name" Binding="{Binding ItemName}" />
+                        <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" />
+                        <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Content="Add Order" Command="{Binding AddOrderCommand}" Margin="0,10,0,0" />
+            </StackPanel>
+
+            <!-- Order History -->
+            <StackPanel>
+                <TextBlock Text="Today's Orders" FontWeight="Bold" FontSize="16" />
+                <DataGrid ItemsSource="{Binding Orders}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Order ID" Binding="{Binding Id}" />
+                        <DataGridTextColumn Header="Total Amount" Binding="{Binding TotalAmount}" />
+                        <DataGridTextColumn Header="Order Date" Binding="{Binding OrderDate}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Content="Load Orders" Command="{Binding LoadOrdersCommand}" Margin="0,10,0,0" />
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>
