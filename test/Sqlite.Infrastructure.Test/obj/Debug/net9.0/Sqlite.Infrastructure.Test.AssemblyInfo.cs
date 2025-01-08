@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sqlite.Infrastructure.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257d58e6ce07033bebae2d6660fb6f07d150c15f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba8168a010499250f0705befc5d632e418617e06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sqlite.Infrastructure.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sqlite.Infrastructure.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
