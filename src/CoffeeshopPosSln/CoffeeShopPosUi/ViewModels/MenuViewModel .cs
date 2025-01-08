@@ -21,7 +21,7 @@ namespace CoffeeShopPosUi.ViewModels
         public ICommand DeleteMenuItemCommand { get; }
         public ICommand LoadMenuCommand { get; }
 
-        public MenuViewModel(Messenger messenger, IMenuRepository menuRepository) : base(messenger)
+        public MenuViewModel(IMessenger messenger, IMenuRepository menuRepository) : base(messenger)
         {
             _menuRepository = menuRepository;
 
