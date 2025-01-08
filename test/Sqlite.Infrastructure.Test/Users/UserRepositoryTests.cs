@@ -46,5 +46,48 @@ namespace Sqlite.Infrastructure.Test.Users
 
             Assert.Null(user);
         }
+        [Fact]
+        public async Task IsUsernameUniqueAsync_Should_Return_True_When_Username_Is_Unique()
+        {
+            // Arrange
+            using (var context = new AppDbContext(_options))
+            {
+                context.Users.Add(new User { Username = "existinguser", PasswordHash = "password", Role = "Admin" });
+                await context.SaveChangesAsync();
+            }
+
+            using (var context = new AppDbContext(_options))
+            {
+                var userRepository = new UserRepository(context);
+
+                // Act
+                var result = await userRepository.IsUsernameUniqueAsync("uniqueuser");
+
+                // Assert
+                Assert.True(result);
+            }
+        }
+
+        [Fact]
+        public async Task IsUsernameUniqueAsync_Should_Return_False_When_Username_Is_Not_Unique()
+        {
+            // Arrange
+            using (var context = new AppDbContext(_options))
+            {
+                context.Users.Add(new User { Username = "existinguser", PasswordHash = "password", Role = "Admin" });
+                await context.SaveChangesAsync();
+            }
+
+            using (var context = new AppDbContext(_options))
+            {
+                var userRepository = new UserRepository(context);
+
+                // Act
+                var result = await userRepository.IsUsernameUniqueAsync("existinguser");
+
+                // Assert
+                Assert.False(result);
+            }
+        }
     }
 }

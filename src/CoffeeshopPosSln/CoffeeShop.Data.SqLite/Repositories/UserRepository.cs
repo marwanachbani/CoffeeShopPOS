@@ -18,5 +18,10 @@ namespace CoffeeShop.Data.SqLite.Repositories
         {
             return await _dbSet.SingleOrDefaultAsync(u => u.Username == username);
         }
+
+        public async Task<bool> IsUsernameUniqueAsync(string username)
+        {
+            return !await _dbSet.AnyAsync(u => u.Username == username);
+        }
     }
 }

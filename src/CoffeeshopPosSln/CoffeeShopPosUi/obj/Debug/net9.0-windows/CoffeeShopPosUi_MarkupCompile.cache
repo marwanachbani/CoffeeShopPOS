@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\
 CoffeeShopPosUi
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\App.xaml
-21727942632
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\App.xaml
+3-1598562575
 
-13-2111154180
+15294740066
 2221347180227
-MainWindow.xaml;Views\LoginView.xaml;
+MainWindow.xaml;Views\LoginView.xaml;Views\RegisterView.xaml;
 
 False
 

@@ -15,13 +15,16 @@ namespace App.test
             var messenger = new Messenger();
             var messageReceived = false;
 
-            messenger.Subscribe("TestMessage", _ => messageReceived = true);
+            Action<MessageBase> callback = _ => messageReceived = true;
+
+            messenger.Subscribe("TestMessage", callback);
+            messenger.Unsubscribe("TestMessage", callback);
 
             // Act
             messenger.Send(new MessageBase("TestMessage"));
 
             // Assert
-            Assert.True(messageReceived);
+            Assert.False(messageReceived);
         }
 
         [Fact]
