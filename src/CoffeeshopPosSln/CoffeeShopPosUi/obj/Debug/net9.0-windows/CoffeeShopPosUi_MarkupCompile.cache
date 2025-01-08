@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\App.xaml
-11407045341
+3-1598562575
 
-4-388650153
-2211167269015
-MainWindow.xaml;
+15294740066
+2221347180227
+MainWindow.xaml;Views\LoginView.xaml;Views\RegisterView.xaml;
 
 False
 

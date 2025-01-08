@@ -27,5 +27,14 @@ namespace CoffeeShop.Data.SqLite.Data
                 optionsBuilder.UseSqlite("Data Source=CoffeeShopPOS.db");
             }
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<User>().HasData(
+                new User { Id = 1, Username = "admin", PasswordHash = "admin123", Role = "Admin" },
+                new User { Id = 2, Username = "cashier", PasswordHash = "cashier123", Role = "Cashier" }
+            );
+        }
     }
 }
