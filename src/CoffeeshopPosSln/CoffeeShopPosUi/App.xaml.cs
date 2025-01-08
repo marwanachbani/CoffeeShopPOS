@@ -50,6 +50,11 @@ public partial class App : Application
             };
             orderView.Show();
             registerView.Show();
+            var appointmentView = new AppointmentView
+            {
+                DataContext = ServiceProvider.GetRequiredService<AppointmentViewModel>()
+            };
+            appointmentView.Show();
             base.OnStartup(e);
         }
 
@@ -64,6 +69,7 @@ public partial class App : Application
             services.AddScoped<OrderViewModel>();
             services.AddScoped<MenuViewModel>();
             services.AddScoped<RegisterViewModel>();
+            services.AddScoped<AppointmentViewModel>();
             services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();
         }
