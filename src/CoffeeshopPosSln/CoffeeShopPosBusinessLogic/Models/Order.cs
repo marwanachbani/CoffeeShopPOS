@@ -11,5 +11,6 @@ namespace CoffeeShopPosBusinessLogic.Models
         public DateTime Date { get; set; }
         public decimal TotalAmount { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
+        
     }
 }
