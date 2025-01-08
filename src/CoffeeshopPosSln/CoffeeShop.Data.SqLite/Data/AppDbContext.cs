@@ -13,6 +13,7 @@ namespace CoffeeShop.Data.SqLite.Data
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
         public AppDbContext()
         {
             
