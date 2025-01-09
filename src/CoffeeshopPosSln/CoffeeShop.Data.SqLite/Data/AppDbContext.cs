@@ -16,6 +16,7 @@ namespace CoffeeShop.Data.SqLite.Data
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Session> Sessions { get; set; }
+        public DbSet<Payment> Payments { get; set; }
         public AppDbContext()
         {
             
