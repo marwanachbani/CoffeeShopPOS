@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sqj3E6zMjJw=",
+  "dgSpecHash": "6h/Lt0WQ0rc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj",
+  "projectFilePath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
