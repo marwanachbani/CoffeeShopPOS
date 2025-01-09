@@ -36,8 +36,8 @@ namespace App.test.Sessions
             };
 
             // Act
-            await viewModel.StartSessionCommand.Execute(null);
-
+             viewModel.StartSessionCommand.Execute(null);
+            await Task.CompletedTask;
             // Assert
             _sessionRepositoryMock.Verify(repo => repo.AddAsync(It.Is<Session>(s => s.ServerId == 1)), Times.Once);
             _messengerMock.Verify(m => m.Send(It.Is<MessageBase>(msg => msg.MessageType == "SessionStarted" && msg.Payload == session)), Times.Once);
