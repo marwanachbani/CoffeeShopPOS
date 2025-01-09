@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S620Km+jh+U=",
+  "dgSpecHash": "64ardfFWGmo=",
   "success": true,
-  "projectFilePath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\Sqlite.Infrastructure.Test\\Sqlite.Infrastructure.Test.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\Sqlite.Infrastructure.Test\\Sqlite.Infrastructure.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

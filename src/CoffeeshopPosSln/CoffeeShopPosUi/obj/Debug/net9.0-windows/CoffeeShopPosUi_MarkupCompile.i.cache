@@ -16,5 +16,5 @@ C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\App.xam
 2221347180227
 MainWindow.xaml;Views\AppointmentView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\OrderView.xaml;Views\PaymentView.xaml;Views\RegisterView.xaml;Views\ReportView.xaml;Views\SessionView.xaml;
 
-False
+True
 
