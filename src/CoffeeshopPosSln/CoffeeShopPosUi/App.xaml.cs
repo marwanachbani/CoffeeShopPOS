@@ -60,6 +60,11 @@ public partial class App : Application
                 DataContext = ServiceProvider.GetRequiredService<SessionViewModel>()
             };
             sessionView.Show();
+            var paymentView = new PaymentView
+            {
+                DataContext = ServiceProvider.GetRequiredService<PaymentViewModel>()
+            };
+            paymentView.Show();
             base.OnStartup(e);
         }
 
@@ -75,6 +80,7 @@ public partial class App : Application
             services.AddScoped<MenuViewModel>();
             services.AddScoped<RegisterViewModel>();
             services.AddScoped<SessionViewModel>();
+            services.AddScoped<PaymentViewModel>();
             services.AddScoped<AppointmentViewModel>();
             services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();

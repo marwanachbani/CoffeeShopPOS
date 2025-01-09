@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using CoffeeShop.Data.SqLite.Data;
 using CoffeeShop.Data.SqLite.Repositories;
 using CoffeeShopPosBusinessLogic.Interfaces;
+using CoffeeShopPosBusinessLogic.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Sqlite.Infrastructure.Test.Sessions

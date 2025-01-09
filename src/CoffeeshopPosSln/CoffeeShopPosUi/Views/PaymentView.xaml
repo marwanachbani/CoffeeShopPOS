@@ -1,0 +1,29 @@
+﻿<Window x:Class="CoffeeShopPosUi.Views.PaymentView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShopPosUi.Views"
+        mc:Ignorable="d"
+        Title="PaymentView" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <!-- Payment Details -->
+            <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                <TextBlock Text="Payments" FontWeight="Bold" FontSize="16" />
+                <DataGrid ItemsSource="{Binding Payments}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="From User" Binding="{Binding FromUser.Username}" />
+                        <DataGridTextColumn Header="To User" Binding="{Binding ToUser.Username}" />
+                        <DataGridTextColumn Header="Amount" Binding="{Binding Amount}" />
+                        <DataGridTextColumn Header="Date" Binding="{Binding PaymentDate}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Content="Process Server to Manager" Command="{Binding ProcessServerToManagerCommand}" Margin="0,10,0,0" />
+                <Button Content="Process Manager to Admin" Command="{Binding ProcessManagerToAdminCommand}" />
+                <Button Content="Load Payments" Command="{Binding LoadPaymentsCommand}" />
+            </StackPanel>
+        </DockPanel>
+        
+    </Grid>
+</Window>

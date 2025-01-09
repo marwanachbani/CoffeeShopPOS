@@ -77,3 +77,5 @@ C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Deb
 C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\AppointmentView.baml
 C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\SessionView.g.cs
 C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\SessionView.baml
+c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\PaymentView.g.cs
+c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\PaymentView.baml

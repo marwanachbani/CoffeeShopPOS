@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoffeeShopPosBusinessLogic.Interfaces;
+using CoffeeShopPosBusinessLogic.Models;
 using CoffeeShopPosUi.Core;
 using CoffeeShopPosUi.ViewModels;
 using Moq;
