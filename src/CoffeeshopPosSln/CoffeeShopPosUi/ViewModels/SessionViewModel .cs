@@ -23,7 +23,7 @@ namespace CoffeeShopPosUi.ViewModels
             public ICommand EndSessionCommand { get; }
             public ICommand LoadSessionsCommand { get; }
 
-            public SessionViewModel(Messenger messenger, ISessionRepository sessionRepository, IOrderRepository orderRepository)
+            public SessionViewModel(IMessenger messenger, ISessionRepository sessionRepository, IOrderRepository orderRepository)
                 : base(messenger)
             {
                 _sessionRepository = sessionRepository;
