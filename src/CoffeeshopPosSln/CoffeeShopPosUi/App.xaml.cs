@@ -3,7 +3,9 @@ using System.Data;
 using System.Windows;
 using CoffeeShop.Data.SqLite.Data;
 using CoffeeShop.Data.SqLite.Features;
+using CoffeeShopPosBusinessLogic.Interfaces;
 using CoffeeShopPosUi.Core;
+using CoffeeShopPosUi.Services;
 using CoffeeShopPosUi.ViewModels;
 using CoffeeShopPosUi.Views;
 using Microsoft.Extensions.DependencyInjection;
@@ -65,6 +67,11 @@ public partial class App : Application
                 DataContext = ServiceProvider.GetRequiredService<PaymentViewModel>()
             };
             paymentView.Show();
+            var reportView = new ReportView
+            {
+                DataContext = ServiceProvider.GetRequiredService<ReportViewModel>()
+            };
+            reportView.Show();
             base.OnStartup(e);
         }
 
@@ -81,8 +88,10 @@ public partial class App : Application
             services.AddScoped<RegisterViewModel>();
             services.AddScoped<SessionViewModel>();
             services.AddScoped<PaymentViewModel>();
+            services.AddScoped<ReportViewModel>();
             services.AddScoped<AppointmentViewModel>();
-            services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
+            services.AddScoped<IMessenger, Messenger>();    
+            services.AddScoped<IReportService, ReportService>();        // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();
         }
 }

@@ -22,6 +22,7 @@ namespace CoffeeShop.Data.SqLite.Features
             services.AddScoped<IAppointmentRepository, AppointmentRepository>();
             services.AddScoped<ISessionRepository, SessionRepository>();
             services.AddScoped<IPaymentRepository, PaymentRepository>();
+            
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlite("Data Source=CoffeeShopPOS.db"));
             return services;

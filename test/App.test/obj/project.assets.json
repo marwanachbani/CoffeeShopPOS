@@ -2703,11 +2703,11 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj": {
-              "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj"
+            "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj": {
+              "projectPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj"
             },
-            "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj": {
-              "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj"
+            "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj": {
+              "projectPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj"
             }
           }
         }
