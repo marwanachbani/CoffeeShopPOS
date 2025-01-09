@@ -4,7 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using CoffeeShop.Data.SqLite.Data;
 using CoffeeShopPosBusinessLogic.Interfaces;
+<<<<<<< HEAD
 using CoffeeShopPosBusinessLogic.Models;
+=======
+>>>>>>> feature/session-management
 using Microsoft.EntityFrameworkCore;
 
 namespace CoffeeShop.Data.SqLite.Repositories

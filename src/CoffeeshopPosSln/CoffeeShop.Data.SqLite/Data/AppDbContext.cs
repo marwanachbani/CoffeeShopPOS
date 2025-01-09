@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoffeeShopPosBusinessLogic.Interfaces;
 using CoffeeShopPosBusinessLogic.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,7 @@ namespace CoffeeShop.Data.SqLite.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<Session> Sessions { get; set; }
         public AppDbContext()
         {
             

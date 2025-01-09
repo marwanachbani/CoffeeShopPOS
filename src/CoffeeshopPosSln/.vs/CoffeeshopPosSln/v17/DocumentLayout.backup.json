@@ -81,20 +81,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppointmentView.xaml",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\AppointmentView.xaml",
-              "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\AppointmentView.xaml",
-              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\AppointmentView.xaml",
-              "RelativeToolTip": "CoffeeShopPosUi\\Views\\AppointmentView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-08T17:00:49.947Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -118,6 +106,18 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAUwDwAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T10:13:40.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentView.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\AppointmentView.xaml",
+              "RelativeDocumentMoniker": "CoffeeShopPosUi\\Views\\AppointmentView.xaml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\Views\\AppointmentView.xaml",
+              "RelativeToolTip": "CoffeeShopPosUi\\Views\\AppointmentView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T17:00:49.947Z",
               "EditorCaption": ""
             },
             {

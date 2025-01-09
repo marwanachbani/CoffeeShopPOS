@@ -10,11 +10,15 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\App.xaml
-62022483532
+7643180099
 
+<<<<<<< HEAD
 24-1774798992
+=======
+25-2144236642
+>>>>>>> feature/session-management
 2221347180227
-MainWindow.xaml;Views\AppointmentView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\OrderView.xaml;Views\RegisterView.xaml;
+MainWindow.xaml;Views\AppointmentView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\OrderView.xaml;Views\RegisterView.xaml;Views\SessionView.xaml;
 
 False
 

@@ -55,6 +55,11 @@ public partial class App : Application
                 DataContext = ServiceProvider.GetRequiredService<AppointmentViewModel>()
             };
             appointmentView.Show();
+            var sessionView = new SessionView
+            {
+                DataContext = ServiceProvider.GetRequiredService<SessionViewModel>()
+            };
+            sessionView.Show();
             base.OnStartup(e);
         }
 
@@ -69,6 +74,7 @@ public partial class App : Application
             services.AddScoped<OrderViewModel>();
             services.AddScoped<MenuViewModel>();
             services.AddScoped<RegisterViewModel>();
+            services.AddScoped<SessionViewModel>();
             services.AddScoped<AppointmentViewModel>();
             services.AddScoped<IMessenger, Messenger>();            // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();
