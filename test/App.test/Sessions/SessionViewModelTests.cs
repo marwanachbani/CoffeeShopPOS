@@ -27,17 +27,17 @@ namespace App.test.Sessions
         public async Task StartSessionCommand_Should_Add_Session_And_Send_Message()
         {
             // Arrange
-            var session = new Session { ServerId = 1, StartTime = DateTime.Now };
+           var session = new Session { ServerId = 1, StartTime = DateTime.Now };
             _sessionRepositoryMock.Setup(repo => repo.AddAsync(It.IsAny<Session>())).Returns(Task.CompletedTask);
 
             var viewModel = new SessionViewModel(_messengerMock.Object, _sessionRepositoryMock.Object, _orderRepositoryMock.Object)
             {
-                CurrentSession = new Session { ServerId = 1 }
+                CurrentSession = session
             };
 
             // Act
-            viewModel.StartSessionCommand.Execute(null);
-            await Task.CompletedTask;
+            await viewModel.StartSessionCommand.Execute(null);
+
             // Assert
             _sessionRepositoryMock.Verify(repo => repo.AddAsync(It.Is<Session>(s => s.ServerId == 1)), Times.Once);
             _messengerMock.Verify(m => m.Send(It.Is<MessageBase>(msg => msg.MessageType == "SessionStarted" && msg.Payload == session)), Times.Once);

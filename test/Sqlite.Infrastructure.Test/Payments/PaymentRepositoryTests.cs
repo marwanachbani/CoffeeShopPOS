@@ -23,6 +23,7 @@ namespace Sqlite.Infrastructure.Test.Payments
         [Fact]
         public async Task AddAsync_Should_Add_Payment_To_Database()
         {
+            var options = new DbContextOptionsBuilder<AppDbContext>() .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) .Options;
             // Arrange
             var payment = new Payment
             {
@@ -32,7 +33,7 @@ namespace Sqlite.Infrastructure.Test.Payments
                 PaymentDate = DateTime.Now
             };
 
-            using (var context = new AppDbContext(_options))
+            using (var context = new AppDbContext(options))
             {
                 var repository = new PaymentRepository(context);
 
@@ -41,7 +42,7 @@ namespace Sqlite.Infrastructure.Test.Payments
             }
 
             // Assert
-            using (var context = new AppDbContext(_options))
+            using (var context = new AppDbContext(options))
             {
                 var payments = context.Payments.ToList();
                 Assert.Single(payments);
@@ -52,10 +53,11 @@ namespace Sqlite.Infrastructure.Test.Payments
         [Fact]
         public async Task GetPaymentsByDateAsync_Should_Return_Payments_For_Specified_Date()
         {
+           var options = new DbContextOptionsBuilder<AppDbContext>() .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) .Options;
             // Arrange
-            var today = DateTime.Today;
+            var today = DateTime.Now;
 
-            using (var context = new AppDbContext(_options))
+            using (var context = new AppDbContext(options))
             {
                 context.Payments.Add(new Payment { FromUserId = 1, ToUserId = 2, Amount = 100.00m, PaymentDate = today });
                 context.Payments.Add(new Payment { FromUserId = 2, ToUserId = 3, Amount = 200.00m, PaymentDate = today });
@@ -63,7 +65,7 @@ namespace Sqlite.Infrastructure.Test.Payments
                 await context.SaveChangesAsync();
             }
 
-            using (var context = new AppDbContext(_options))
+            using (var context = new AppDbContext(options))
             {
                 var repository = new PaymentRepository(context);
                 var all = await repository.GetAllAsync();
