@@ -2677,11 +2677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
       "projectName": "App.test",
-      "projectPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
+      "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2706,8 +2706,8 @@
             "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj": {
               "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShop.Data.SqLite\\CoffeeShop.Data.SqLite.csproj"
             },
-            "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj": {
-              "projectPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj"
+            "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj": {
+              "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosUi\\CoffeeShopPosUi.csproj"
             }
           }
         }

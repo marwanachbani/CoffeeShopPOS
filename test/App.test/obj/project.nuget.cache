@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yf99CcSUp0s=",
+  "dgSpecHash": "Kcx+V2KXFi8=",
   "success": true,
-  "projectFilePath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\test\\App.test\\App.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

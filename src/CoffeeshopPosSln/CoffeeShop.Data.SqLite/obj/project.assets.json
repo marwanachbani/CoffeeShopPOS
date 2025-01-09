@@ -3193,8 +3193,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosBusinessLogic\\CoffeeShopPosBusinessLogic.csproj": {
-              "projectPath": "c:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosBusinessLogic\\CoffeeShopPosBusinessLogic.csproj"
+            "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosBusinessLogic\\CoffeeShopPosBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\hp\\Documents\\CoffeeShopPOS\\src\\CoffeeshopPosSln\\CoffeeShopPosBusinessLogic\\CoffeeShopPosBusinessLogic.csproj"
             }
           }
         }
