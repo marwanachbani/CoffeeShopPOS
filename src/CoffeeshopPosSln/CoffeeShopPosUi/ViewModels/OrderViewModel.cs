@@ -16,6 +16,8 @@ namespace CoffeeShopPosUi.ViewModels
         private readonly IPrinterService _printerService;
         private readonly IOrderRepository _orderRepository;
         private readonly IMessenger _messenger;
+        private IOrderRepository @object;
+
         public ObservableCollection<Order> Orders { get; set; } = new ObservableCollection<Order>();
         public Order CurrentOrder { get; set; } = new Order();
 
@@ -30,6 +32,11 @@ namespace CoffeeShopPosUi.ViewModels
 
             AddOrderCommand = new RelayCommand(async (obj) => await AddOrderAsync(CurrentOrder));
             LoadOrdersCommand = new RelayCommand(async (obj) => await LoadOrdersAsync());
+        }
+
+        public OrderViewModel(IMessenger messenger, IOrderRepository @object) : base(messenger)
+        {
+            this.@object = @object;
         }
 
         public async Task AddOrderAsync(Order order)

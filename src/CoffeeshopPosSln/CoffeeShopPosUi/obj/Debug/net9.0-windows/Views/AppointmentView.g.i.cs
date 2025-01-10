@@ -54,7 +54,7 @@ namespace CoffeeShopPosUi.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CoffeeShopPosUi;V1.0.0.0;component/views/appointmentview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CoffeeShopPosUi;component/views/appointmentview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AppointmentView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

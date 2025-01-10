@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeShop.Data.SqLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddbab9965347eda1cf4cec1132b83f34838ea483")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+206c5f6546d0249b53c6ae19350601c616645f98")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeShop.Data.SqLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeShop.Data.SqLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
