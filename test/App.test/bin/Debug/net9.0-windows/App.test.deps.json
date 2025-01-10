@@ -772,7 +772,8 @@
       "CoffeeShopPosUi/1.0.0": {
         "dependencies": {
           "CoffeeShop.Data.SqLite": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection": "9.0.0",
+          "System.Drawing.Common": "6.0.0"
         },
         "runtime": {
           "CoffeeShopPosUi.dll": {

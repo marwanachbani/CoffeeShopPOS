@@ -91,7 +91,9 @@ public partial class App : Application
             services.AddScoped<ReportViewModel>();
             services.AddScoped<AppointmentViewModel>();
             services.AddScoped<IMessenger, Messenger>();    
-            services.AddScoped<IReportService, ReportService>();        // Add Infrastructure services (repositories, etc.)
+            services.AddScoped<IReportService, ReportService>();
+            services.AddScoped<IPrinterService, PrinterService>();
+            services.AddScoped<PrintPreviewViewModel>();        // Add Infrastructure services (repositories, etc.)
             services.AddInfrastructure();
         }
 }

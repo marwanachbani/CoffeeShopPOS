@@ -81,3 +81,5 @@ c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Deb
 c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\PaymentView.baml
 c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\ReportView.g.cs
 c:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\ReportView.baml
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\PrintPreviewView.g.cs
+C:\Users\hp\Documents\CoffeeShopPOS\src\CoffeeshopPosSln\CoffeeShopPosUi\obj\Debug\net9.0-windows\Views\PrintPreviewView.baml
