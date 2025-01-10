@@ -59,8 +59,8 @@ namespace App.test.Orders
         [Fact]
         public async Task AddOrderAsync_Should_Send_OrderError_Message_When_No_OrderDetails()
         {
-            // Arrange
-            var viewModel = new OrderViewModel(_messengerMock.Object, _orderRepositoryMock.Object);
+            var viewModel = new OrderViewModel(_messengerMock.Object, _orderRepositoryMock.Object, _printerService);
+
             var order = new Order { OrderDetails = null };
 
             // Act
@@ -82,7 +82,7 @@ namespace App.test.Orders
 
             _orderRepositoryMock.Setup(repo => repo.GetOrdersByDateAsync(It.IsAny<DateTime>())).ReturnsAsync(orders);
 
-            var viewModel = new OrderViewModel(_messengerMock.Object, _orderRepositoryMock.Object);
+            var viewModel = new OrderViewModel(_messengerMock.Object, _orderRepositoryMock.Object, _printerService);
 
             // Act
             viewModel.LoadOrdersCommand.Execute(null);
