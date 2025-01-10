@@ -214,6 +214,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
