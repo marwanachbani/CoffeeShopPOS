@@ -19,12 +19,14 @@ namespace App.test.Orders
             .UseInMemoryDatabase(databaseName: "TestDatabase")
             .Options;
         private readonly Mock<IOrderRepository> _orderRepositoryMock;
+        private readonly IPrinterService _printerService;
         private readonly Mock<IMessenger> _messengerMock;
 
         public OrderViewModelTests()
         {
             _orderRepositoryMock = new Mock<IOrderRepository>();
             _messengerMock = new Mock<IMessenger>();
+            _printerService = new Mock<IPrinterService>().Object;
         }
 
        
